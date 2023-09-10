@@ -1,0 +1,36 @@
+{
+    "version": "1.0.0.0",
+    "admin": [],
+    "robot": [],
+    "group": {
+        "blockList": []
+    },
+    "event": {
+        "robot": {
+            "passive": {
+                "add": {
+                    "switch": true,
+                    "text": "系统:拒绝添加机器人好友"
+                },
+                "invite": {
+                    "switch": true,
+                    "text": "系统:拒绝邀请机器人加群"
+                }
+            }
+        },
+        "group": {
+            "admin": {
+                "add": {
+                    "switch": true,
+                    "text": "系统:拒绝某人申请加群"
+                }
+            },
+            "user": {
+                "invite": {
+                    "switch": true,
+                    "text": "系统:拒绝被邀请某人加群"
+                }
+            }
+        }
+    }
+}

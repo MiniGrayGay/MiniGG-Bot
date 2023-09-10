@@ -1,0 +1,13 @@
+.idea/*
+.vscode/*
+.DS_Store
+app/cache/*
+app/config/*
+app/database/*
+app/resources/*
+app/ws/*
+node_modules/*
+vendor/*
+!app/config/app.definition.php
+!app/database/example.app.sql.php
+!app/ws/example.qq_guild_ws.js

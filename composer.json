@@ -1,0 +1,7 @@
+{
+    "require": {
+        "overtrue/pinyin": "^4.0.8",
+        "predis/predis": "^2.1.1",
+        "onekb/chat-gpt": "^2.0"
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "scripts": {
+        "start:qq": "node app/ws/qq_ws.js"
+    },
+    "dependencies": {
+        "axios": "^0.24.0",
+        "ws": "^8.3.0"
+    },
+    "packageManager": "yarn@1.22.15"
+}
