@@ -1,0 +1,48 @@
+{
+    "icon": "pic.icon",
+    "guid": "37945d2a-7056-40d7-900b-cf86842db270",
+    "name": "一言",
+    "type": [
+        "工具"
+    ],
+    "desc": "这些文字, 美好而悲伤, 让心宁静。",
+    "ver": "1.0.0.0",
+    "author": "MiniGG",
+    "url": "https://hitokoto.cn",
+    "switch": true,
+    "trigger": {
+        "web": [
+            "https://status.hitokoto.cn",
+            "https://tenapi.cn",
+            "https://v1.hitokoto.cn",
+            "https://www.tianapi.com"
+        ],
+        "frame": [],
+        "command": [
+            {
+                "keywords": "一言",
+                "desc": "获取心动句子"
+            },
+            {
+                "keywords": "土味情话",
+                "desc": "流行的甜到腻嘴，撩到心氧的情话"
+            },
+            {
+                "keywords": "互删句子",
+                "desc": "一切源于给你幸福，终于祝你幸福"
+            },
+            {
+                "keywords": "网易云热评",
+                "desc": "到点了家人们"
+            },
+            {
+                "keywords": "舔狗日记",
+                "desc": "获取一条舔狗日记，记录卑微爱情"
+            },
+            {
+                "keywords": "句子状态",
+                "desc": "[管]获取一言的服务状态"
+            }
+        ]
+    }
+}

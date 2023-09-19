@@ -1,0 +1,39 @@
+{
+    "icon": "pic.icon",
+    "guid": "38cfb090-9c54-4cc8-b5eb-be27aad71a39",
+    "name": "demo",
+    "type": [
+        "工具"
+    ],
+    "desc": "这是一个 demo",
+    "ver": "1.0.0.0",
+    "author": "Demo",
+    "url": null,
+    "switch": true,
+    "trigger": {
+        "web": [],
+        "frame": [],
+        "command": [
+            {
+                "keywords": "你好|我好|大家好",
+                "desc": "这是注册的一个关键词",
+                "show": false
+            },
+            {
+                "keywords": "测试",
+                "desc": "这是一个测试",
+                "show": false
+            },
+            {
+                "keywords": "json",
+                "desc": "这是一个测试",
+                "show": false
+            },
+            {
+                "keywords": "md",
+                "desc": "这是一个测试",
+                "show": false
+            }
+        ]
+    }
+}
