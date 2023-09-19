@@ -1,0 +1,83 @@
+{
+    "icon": "pic.icon",
+    "guid": "a02987e6-0101-46eb-8830-30c163d63ecc",
+    "name": "系统",
+    "type": [
+        "系统"
+    ],
+    "desc": "你就是我的Master吗？",
+    "ver": "1.0.0.0",
+    "author": "MiniGG",
+    "url": null,
+    "switch": true,
+    "trigger": {
+        "web": [],
+        "frame": [],
+        "command": [
+            {
+                "keywords": "系统状态",
+                "desc": "查询机器人框架信息"
+            },
+            {
+                "keywords": "群组",
+                "desc": "获取当前群组的信息"
+            },
+            {
+                "keywords": "订阅",
+                "desc": "获取当前订阅的信息"
+            },
+            {
+                "keywords": "功能|菜单|帮助",
+                "desc": "一级菜单",
+                "show": false
+            },
+            {
+                "keywords": "喜欢黑色吗|原神|王者荣耀|游戏相关|内战系统|娱乐功能|系统功能",
+                "desc": "二级菜单",
+                "show": false
+            },
+            {
+                "keywords": "频道数据",
+                "desc": "获取当前频道的数据",
+                "show": false
+            },
+            {
+                "keywords": "http",
+                "desc": "获取微信表情链接",
+                "show": false
+            },
+            {
+                "keywords": "复述",
+                "desc": "[管]复读机",
+                "demo": "复述<内容>，示例:复述你好"
+            },
+            {
+                "keywords": "加群",
+                "desc": "[管]主动添加一个群组",
+                "demo": "加群<群号>，示例:加群12345"
+            },
+            {
+                "keywords": "拉黑",
+                "desc": "[管]拉黑一个人",
+                "demo": "拉黑<对象>，示例:拉黑12345"
+            },
+            {
+                "keywords": "删黑",
+                "desc": "[管]将一个人移除黑名单",
+                "demo": "删黑<对象>，示例:拉黑12345"
+            },
+            {
+                "keywords": "黑名单",
+                "desc": "[管]返回当前黑名单列表"
+            },
+            {
+                "keywords": "清除系统缓存",
+                "desc": "[管]清除系统缓存"
+            },
+            {
+                "keywords": "清除网站缓存",
+                "desc": "[管]清除网站缓存"
+            }
+        ]
+    }
+}
